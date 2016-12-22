@@ -2,7 +2,7 @@ package sometestpackage
 
 import org.scalacheck.Prop._
 
-import com.kastrull.scalachecktojunit.PropertiesToJUnit;
+import com.kastrull.scalachecktojunit.PropertiesToJUnit
 
 class StringTestUse extends PropertiesToJUnit("StringTestUse") {
 

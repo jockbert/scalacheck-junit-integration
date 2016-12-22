@@ -17,7 +17,7 @@ import org.junit.Assert._
 abstract class PropertiesToJUnit(name: String) extends Properties(name) {
 
   @Test
-  def testScalaCheckProperies(): Unit = {
+  def testScalaCheckProperiesTest(): Unit = {
     val params = Parameters.defaultVerbose
 
     this.properties.map {
