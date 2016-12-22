@@ -7,20 +7,19 @@ version = '1.0'
 
 repositories {
     mavenCentral()
-    maven { url "https://jitpack.io" }
 }
 
 dependencies {
     compile group: 'junit', name: 'junit', version: '4.+'
 
     // scala library (and compiler) and ScalaCheck
-    compile "org.scala-lang:scala-library:2.11.8"
+    compile "org.scala-lang:scala-library:2.11.+"
     compile group: 'org.scalacheck', name: 'scalacheck_2.11', version: '1.13.+'
 }
 
 test {
     testLogging {
-        //showStandardStreams = true
+        // showStandardStreams = true
         exceptionFormat = 'full'
     }
 }
